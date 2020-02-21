@@ -6,23 +6,23 @@
 #    By: nneronin <nneronin@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/12/11 13:53:45 by nneronin          #+#    #+#              #
-#    Updated: 2020/02/21 19:04:24 by nneronin         ###   ########.fr        #
+#    Updated: 2020/02/21 19:36:48 by nneronin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = fdf
-SRCS = ./main.c\
-	   ./read_file.c\
-	   ./matrix.c\
-	   ./rotation_matrix.c\
-	   ./ft_atoi_base.c\
-	   ./info.c\
-	   ./key.c\
-	   ./draw.c\
-	   ./mouse.c\
-	   ./malloc.c\
-	   ./rgb.c\
-	   ./image_to_window.c
+SRCS = ./srcs/main.c\
+	   ./srcs/read_file.c\
+	   ./srcs/matrix.c\
+	   ./srcs/rotation_matrix.c\
+	   ./srcs/ft_atoi_base.c\
+	   ./srcs/info.c\
+	   ./srcs/key.c\
+	   ./srcs/draw.c\
+	   ./srcs/mouse.c\
+	   ./srcs/malloc.c\
+	   ./srcs/rgb.c\
+	   ./srcs/image_to_window.c
 OBJS = $(SRCS:.c=.o)
 INCLUDES = ./libft/libft.a
 FLAGS = -Wall -Wextra -Werror
