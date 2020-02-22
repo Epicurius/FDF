@@ -2,7 +2,8 @@
 3D Wireframe Viewer. (macOS only)
 
 # Usage
-make re\n
+make re
+
 ./fdf maps/"<file>"
 
 # Commands
