@@ -4,7 +4,7 @@
 # Usage
 make re
 
-./fdf maps/"<file>"
+./fdf maps/"file.exe"
 
 # Commands
 'H' for help menu.
