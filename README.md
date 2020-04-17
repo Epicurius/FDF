@@ -3,6 +3,7 @@
 
 # Usage
   make re
+  
   ./fdf "map that you want to run, ./maps/42.fdf"
 
 # Commands
