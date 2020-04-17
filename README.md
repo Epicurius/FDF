@@ -3,8 +3,7 @@
 
 # Usage
   make re
-
-  ./fdf maps/"file.fdf"
+  ./fdf "map that you want to run, ./maps/42.fdf"
 
 # Commands
 'H' for help menu.
