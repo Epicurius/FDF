@@ -1,10 +1,10 @@
 # FDF
-3D Wireframe Viewer. (macOS only)
+  3D Wireframe Viewer. (macOS only, might need X11)
 
 # Usage
-make re
+  make re
 
-./fdf maps/"file.fdf"
+  ./fdf maps/"file.fdf"
 
 # Commands
 'H' for help menu.
