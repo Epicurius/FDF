@@ -20,8 +20,8 @@
 
 # define RGB 1
 # define START_SIZE 1
-# define WIN_WIDTH 1920
-# define WIN_HIGHT 1300
+# define WIN_WIDTH 1000
+# define WIN_HIGHT 700
 
 typedef struct		s_mlx
 {

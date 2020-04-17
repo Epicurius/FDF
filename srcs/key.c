@@ -54,10 +54,10 @@ static int		key_codes(int key, t_mlx *mlx_arr)
 int				key_press(int key, t_mlx *mlx_arr)
 {
 	key == 53 ? exit(0) : 0;
-	if (key == 78 || key == 69)
+	if (key == 6 || key == 7)
 	{
-		mlx_arr->size[1] += 78 == key ? -1 : 1;
-		mlx_arr->size[2] += 78 == key ? -1 : 1;
+		mlx_arr->size[1] += 6 == key ? -1 : 1;
+		mlx_arr->size[2] += 6 == key ? -1 : 1;
 	}
 	else if (key == 49)
 		reset(mlx_arr);

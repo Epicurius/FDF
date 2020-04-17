@@ -20,7 +20,7 @@ void	info(t_mlx *mlx_arr)
 	mlx_string_put(mlx_arr->mlx_ptr, mlx_arr->win_ptr, 25, 15, color,
 			"MoveCam: Arrow keys");
 	mlx_string_put(mlx_arr->mlx_ptr, mlx_arr->win_ptr, 25, 35, color,
-			"Zoom: +, -");
+			"Zoom: z, x");
 	mlx_string_put(mlx_arr->mlx_ptr, mlx_arr->win_ptr, 25, 55, color,
 			"RgbToggle: c");
 	mlx_string_put(mlx_arr->mlx_ptr, mlx_arr->win_ptr, 25, 75, color,

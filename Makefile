@@ -30,8 +30,10 @@ FLAGS = -Wall -Wextra -Werror
 all: $(NAME)
 
 $(NAME):
-		make -C ./libft/	
-		gcc -o $(NAME) $(SRCS) $(INCLUDES) -lmlx -framework OpenGL -framework AppKit
+		make -C ./libft/
+		gcc -o $(NAME) $(SRCS) $(INCLUDES) -lmlx -L./libmlx ./libmlx/libmlx.a  -framework OpenGl -framework AppKit
+#		gcc -o $(NAME) $(SRCS) $(INCLUDES) -lmlx -L/usr/X11/lib /usr/X11/lib/libmlx.a -framework OpenGl -framework AppKit
+#		gcc -o $(NAME) $(SRCS) $(INCLUDES) -lmlx -framework OpenGl -framework AppKit
 
 clean:
 		/bin/rm -f $(OBJS)
